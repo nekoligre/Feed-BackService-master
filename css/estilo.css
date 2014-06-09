@@ -1,0 +1,390 @@
+.espacio{
+    height: 50px;
+}
+.container{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+
+}
+.carita{
+    width: 30px;
+    height: 30px;
+}
+.usu{
+    font-family: 'Shadows Into Light', italic;
+    font-size: 20px;
+    color:#1DCD13;
+    //padding-left: 250px;
+    letter-spacing: 2px;
+    text-shadow: 0 1px 1px black;
+}
+.usu span{
+    color:#F8B21D;
+}
+.desconectar a{
+    font-family: 'Shadows Into Light', italic;
+    font-size: 13px;
+    color:white;
+    letter-spacing: 3px;
+    text-shadow: 0 1px 1px black;
+
+}
+.desconectar a:hover{
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+}
+.masthead-brand{
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.masthead-nav > li > a{
+    color:white;
+    text-shadow: 0 1px 1px black;
+    font-size: 20px;
+    letter-spacing: 4px;
+
+}
+.masthead-nav > .active > a, 
+.masthead-nav > .active > a:hover, 
+.masthead-nav > .active > a:focus {
+    border-bottom-color: #1DCD13;
+    color: #F8B21D;
+    text-shadow: 0 5px 10px black;
+    background-color: inherit;
+}
+.masthead-nav > li >a, 
+.masthead-nav > li > a:hover 
+{
+    color: #F8B21D;
+    text-shadow: 0 5px 10px black;
+    background-color: inherit;
+}
+
+.masthead-nav{
+    margin-top: 30px;
+    font-family: 'Shadows Into Light', italic;
+
+
+}
+.liMenu{
+    float: left;
+    color:orange;
+}
+menu a{
+    color:black;
+}
+/*.active{*/
+/*width: 20%;*/
+/*}*/
+.contenido{
+    min-width: 900px;
+    width: 100%;
+}
+header{
+    background-color: #4B494D;
+    border-bottom: 2px solid #1DCD13;
+    padding-top: 4px;
+}
+.margenInf{
+    width: 350px;
+}
+#colum1{
+    padding-top: 30px;
+}
+
+#colum2{
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 4px;
+}
+#colum2 input{
+    border-color:  #1DCD13;
+    color:orange;
+}
+#colum2 input:hover{
+    border-color:  #1DCD13;
+    color:orange;
+}
+#alias::-webkit-input-placeholder { color: orange; font-weight: bold;}
+
+.botonesFeed{
+    border-color: orange;
+    color: #333333;
+}
+.botonesFeed:hover{
+    font-size: 19px;
+    font-weight: bold;
+}
+.botonesFeedStrong{
+    background-color: #1DCD13;
+    border-color: orange;
+    border-width: 3px;
+}
+.botonesFeedStrong:hover{
+    background-color: #1DCD13;
+    border-color: orange;
+    border-width: 3px;
+    color:black;
+    font-size: 23px;
+}
+#botonRegistro{
+    clear: both;
+    padding-top: 15px;
+
+}
+
+.masthead, .mastfoot, .cover-container{
+    width: 100%;
+}
+
+//Registro
+#myModalLabel{
+    color:green;
+}
+.terminos{
+    text-align: left;
+}
+#sexo{
+    text-align: left;
+}
+input{
+    margin-bottom: 8px;
+}
+#formulario input{
+    margin-bottom: 5px;
+    border-color: #1DCD13;
+    color:orange;
+}
+#formulario select{
+    margin-bottom: 5px;
+    border-color: #1DCD13;
+}
+#mujer,#hombre{
+    color:#1DCD13;
+}
+#formulario a{
+    color:orange;
+}
+#formulario button{
+    background-color:  #1DCD13;
+    border-color: orange;
+    border-width: 3px;
+    color:black;
+}
+.modal-footer button{
+    background-color: orange;
+    color:black;
+    border-color:  #1DCD13;
+    border-width: 3px;
+}
+.ui-datepicker{
+    font-size: 14px;
+}
+.ui-datepicker .ui-datepicker-header{
+    background:#1DCD13;
+}
+//.ui-datepicker .ui-state-default{
+//  background:orange;
+//}
+.ui-datepicker .ui-state-active{
+    background:orange;
+}
+
+
+
+//Sobre nosotros
+.foto{
+    float: left;
+    width: 250px;
+}
+.datos{
+    margin-top: 50px;
+    float: left;
+    width: 200px;
+}
+.datos span{
+    color:grey;
+    font-size: 10px;
+}
+.personal{
+    margin-bottom: 20px;
+}
+.colum2sobre{
+    margin-top: 70px;
+    padding-left: 50px;
+
+    margin-bottom: 50px;
+}
+#colum1sobre{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+//home
+.margen{
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+.colum1home{
+    padding-top: 70px;
+    padding-bottom: 50px;
+
+
+}
+
+.colum2home{
+    max-width: 300px;
+}
+//tabs
+nav-tabs{
+    width: 200px;
+}
+
+.tabs-left > .nav-tabs {
+    border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+    display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+    display: block;
+}
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+    float: none;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+    min-width: 150px;
+    margin-right: 0;
+    margin-bottom: 3px;
+    letter-spacing: 2px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 15px;
+    color:black;
+}
+
+.tabs-left > .nav-tabs {
+    float: left;
+    margin-right: 19px;
+    border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+    margin-right: -1px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+    border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+    border-color: #ddd transparent #ddd #ddd;
+    *border-right-color: #ffffff;
+}
+
+
+.footer{
+    font-size: 10px;
+    color:white;
+    background-color: #4B494D;
+    border-top: 2px solid #1DCD13;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+.Texto{
+    font-size: 15px;
+    margin-bottom: 5%;
+    text-shadow:  0 0px 0px #1DCD13;
+}
+
+.perfilDatos{
+
+    padding: 10px;
+}
+#fotoPerfil {
+    overflow: hidden;
+
+}
+#inputNuevo{
+    display: none;
+}
+.enlaceFoto{
+    cursor: pointer;
+}
+.cajaDatos{
+
+    padding-bottom: 10px;
+}
+.cajaServicios{
+    border-top: 1px solid #4B494D;
+    padding: 20px;
+}
+
+.editaServicios{
+    padding-left: 30px;
+    color:#1DCD13;
+    cursor: pointer;
+}
+.editaServicios:hover{  
+    color:orange;
+}
+.cajaServicio{
+    padding: 20px;
+}
+.perfilServicios{
+    padding: 8px;
+    /*margin-left: 15px;*/
+}
+
+.basura{
+    font-size: 40px;
+    cursor: pointer;
+}
+.basura:hover{
+    color:orange;
+}
+.botonAñade{
+    font-size: 18px;
+    cursor: pointer;
+}
+.botonAñade:hover{
+    font-size: 18px;
+    color:grey;
+}
+#sectoresAñade,
+#serviciosAñade,
+#descripcionCortaAñad
+#descripcionLargaAñade,
+#botonAñadeServicios{
+
+    margin-top: 20px;
+}
+
+#botonEditaCorta:hover,
+#botonEditaLarga:hover,
+#botonCancelaCorta:hover,
+#botonCancelaLarga:hover{
+    color:orange;
+    
+}
+.lista{
+    margin-right: 20px;
+}
